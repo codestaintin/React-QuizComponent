@@ -29,7 +29,60 @@ button {
   margin: 0.6em auto;
   font-size: 1.5em;
   display: block;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: skyblue;
+  color: white;
+  border: 2px solid white;
+
 }
 .error {
   color: red;
+}
+.question-container {
+  text-align: center;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.answer-container {
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.flex-item {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.row{
+  flex-direction: row;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+
+main p {
+  font-family: 'Oswald', sans-serif;
 }
